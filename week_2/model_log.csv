@@ -1,2 +1,3 @@
 Model,Scaler,Hyperparameters,Accuracy,Precision,Recall,F1 Score,Notes
 Logistic Regression,StandardScaler,"class_weight='balanced', random_state=42",0.7305,0.0974,0.8382,0.1746,"High recall, low precision. 528 false positives, 11 false negatives."
+KNN,StandardScaler,n_neighbors=5,0.981,0.8286,0.4754,0.6041,"Recall low, next: try Random Forest"
