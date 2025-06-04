@@ -1,5 +1,0 @@
-accuracy,precision,recall,f1,Confusion matrix,model,params
-0.9805,0.84375,0.4426229508196721,0.5806451612903226,"[[1934    5]
- [  34   27]]",KNeighborsClassifier,"{'algorithm': 'auto', 'leaf_size': 30, 'metric': 'minkowski', 'metric_params': None, 'n_jobs': None, 'n_neighbors': 7, 'p': 2, 'weights': 'uniform'}"
-0.9805,0.84375,0.4426229508196721,0.5806451612903226,"[[1934    5]
- [  34   27]]",KNeighborsClassifier,KNeighborsClassifier(n_neighbors=7),"{'algorithm': 'auto', 'leaf_size': 30, 'metric': 'minkowski', 'metric_params': None, 'n_jobs': None, 'n_neighbors': 7, 'p': 2, 'weights': 'uniform'}"

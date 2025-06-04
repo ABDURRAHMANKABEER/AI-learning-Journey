@@ -43,7 +43,39 @@ scikit-learn
 
 Jupyter Notebook
 
-**🧠 Author**
-Abdurrahman Kabir
+## 🧪 Models Tried
+- Logistic Regression
+- Random Forest
+- XGBoost with SMOTE + `scale_pos_weight`
+- Threshold Tuning for Precision/Recall balance
+
+---
+
+## 🔍 Key Findings
+- F1 score peaked at ~66% with SMOTE + XGBoost
+- Precision–Recall tradeoff is challenging
+- Threshold tuning improved recall at the cost of precision
+- Best threshold (~0.7) gave:
+  - ✅ Precision ≈ 76%
+  - ✅ Recall ≈ 66%
+
+---
+
+## 📊 Model Log
+See `model_log.md` for all test scores, confusion matrices, and thresholds tried.
+
+---
+
+## 🚀 Next Steps
+- Split into train/validation/test properly
+- Avoid overfitting by using validation for threshold tuning
+- Try stacking / ensemble learning
+- Deploy as a Flask or Streamlit app (optional)
+
+---
+
+## 👤 Author
+**Abdurrahman Kabir**  
 Electrical Engineering Student, Ahmadu Bello University Zaria
 Aspiring AI & Control Systems Engineer
+[LinkedIn](https://www.linkedin.com/in/abdurrahman-kabir-10580220b) | [GitHub](https://github.com/ABDURRAHMANKABEER)
