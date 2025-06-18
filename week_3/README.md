@@ -31,15 +31,15 @@ This threshold was then used to evaluate final test performance.
 ## 📈 Final Performance Metrics
 
 ### Validation Set
-- **Precision**: `0.6462`
-- **Recall**: `0.8235`
-- **F1 Score**: `0.7241`
+- **Precision**: `0.6727`
+- **Recall**: `0.7255`
+- **F1 Score**: `0.6981`
 
 ### Test Set
 - **Accuracy**: `0.9747`
-- **Precision**: `0.6102`
-- **Recall**: `0.7059`
-- **F1 Score**: `0.6545`
+- **Precision**: `0.6667`
+- **Recall**: `0.7451`
+- **F1 Score**: `0.7037`
 
 ## 🎯 Conclusion
 
